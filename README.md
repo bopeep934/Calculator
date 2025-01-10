@@ -156,10 +156,15 @@ Calculator calculate = new Calculator(); 메인에서 Calculator 클래스를 �
   
 ```java
   main{
+
+  ...
           calculator.xResult(x);
 
-  
+  ...
+
   class ArithmeticCalculator{
+    private ArrayList<Operation> resultArray = new ArrayList<>();//연산 객체 배열
+
   ...
    void xResult(int i){ 
         ListView lv=new ListView();
@@ -167,6 +172,7 @@ Calculator calculate = new Calculator(); 메인에서 Calculator 클래스를 �
         }
   
   class ListView{
+
   ...
    public void getXList(ArrayList<Operation> allList, int x){//전체 리스트를 받은 후
         allArrayList=allList;//현재 리스트에 넣고
