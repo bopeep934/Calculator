@@ -231,8 +231,7 @@ Calculator calculate = new Calculator(); 메인에서 Calculator 클래스를 �
 
   8.계산기를 종료한다.
   
-  ![](https://velog.velcdn.com/images/gkinfn/post/927ad8bf-df00-4ebc-b31d-0a566ce1cbfd/image.png)
-
+ ![](https://velog.velcdn.com/images/gkinfn/post/c6e0395f-6de0-422d-a71d-8a62a066c461/image.png)
   
 
   
