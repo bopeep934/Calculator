@@ -149,6 +149,17 @@ Calculator calculate = new Calculator(); 메인에서 Calculator 클래스를 �
 - [ ] 저장된 연산 결과들 중 Scanner로 입력받은 값보다 큰 결과값 들을 출력
 1. 연산식들을 배열로 묶기 위해 Class Operation 생성
 2. Operation에는 입력받은 피연산자 2개, 연산자 1개, 결과값이 저장되어 있음
+
+ Class Operation{ 
+   |자료형|역할|
+   |--|--|
+  |private int num|연산 번호|
+  |private double x|피연산자 1|
+  |private double y|피연산자 2|
+  |private char symbol|연산기호|
+  |private double answer|결과값|
+
+
 3. 계산식을 ArrayList에 저장
 4. main 에서 값을 입력받으면 ArithmeticCalculator클래스에서 처리
 5. class ListView을 생성해 람다&스트림문으로 ArrayList에 저장한 계산식 배열들을 처리
